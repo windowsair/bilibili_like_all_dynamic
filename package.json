@@ -1,0 +1,16 @@
+{
+  "name": "bilibili_like_all_dynamic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "await-to-js": "^3.0.0",
+    "axios": "^0.26.1",
+    "qs": "^6.10.3"
+  }
+}
