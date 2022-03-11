@@ -144,6 +144,9 @@ let mainThread = async () => {
         }
 
         if (all_liked) {
+            if (offset == next_offset) {
+                break
+            }
             offset = next_offset
             console.log(`[info]offset:${next_offset}`)
         }
