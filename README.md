@@ -11,23 +11,12 @@
 
 填入自己账号的cookie, 以及待点赞UP的uid
 
-```js
-let config = {
-    cookie: {
-        sid: '',
-        DedeUserID: '',
-        DedeUserID__ckMd5: '',
-        SESSDATA: '',
-        bili_jct: '',
-    },
-    like_uid: 672328094
-}
-```
+https://github.com/windowsair/bilibili_like_all_dynamic/blob/6f013530db9eb567a693bc1b3b40f559deb1f547/app.js#L6-L15
 
 2. 运行
 
 
 ```bash
 npm install
-npm run
+node app.js
 ```
